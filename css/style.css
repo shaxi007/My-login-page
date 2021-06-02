@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: linear-gradient(
+        to right,
+        rgb(255, 81, 0),
+        rgb(255, 115, 0),
+        rgba(255, 145, 0, 0.856)
+    );
+}
+.asosiy {
+    width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 50px;
+}
+.form {
+    border: white 30px solid;
+    background-color: white;
+    padding-bottom: 10px;
+    width: 400px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+input {
+    margin-top: 8px;
+    padding: 6px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    outline: none;
+}
+
+h1 {
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+button {
+    margin-left: 276px;
+    background-color: rgb(255, 115, 0);
+    border: none;
+    padding: 7px 18px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.qiyshiq {
+    width: 100px;
+    background-color: white;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.rasm-h1-p-a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+p {
+    text-align: center;
+    width: 370px;
+    color: white;
+}
+h3 {
+    color: white;
+}
+a {
+    text-decoration: none;
+    opacity: 0.7;
+    padding: 7px 15px;
+    color: black;
+    background-color: white;
+    border-radius: 17px;
+    margin-bottom: 30px; 
+}
+img {
+    margin-top: 35px;
+}
